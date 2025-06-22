@@ -73,4 +73,13 @@
   body {
     @apply bg-background text-foreground;
   }
+  body {
+  @apply bg-green-50; /* Delikatne zielone tło */
+  color: #333; /* Ciemniejszy kolor tekstu */
+}
+.container { /* Dla głównego kontenera aplikacji */
+  background-color: #f8f8f8; /* Jasne tło dla zawartości */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Delikatny cień */
+  border-radius: 8px; /* Zaokrąglone rogi */
+}
 }
